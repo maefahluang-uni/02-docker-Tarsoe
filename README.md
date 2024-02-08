@@ -92,7 +92,7 @@ The -p 3000:3000 maps port 3000 on the host to port 3000 on the container.
 - Push the image to the repository, ***please replace [project-id] with your project id on GCP***:
 
 ```bash
-gcloud builds submit --region=us-central1 --tag us-central1-docker.pkg.dev/[project-id]/docker-repo/hellojs:latest
+gcloud builds submit --region=us-central1 --tag us-central1-docker.pkg.dev/wise-mantra-413210/docker-repo/hellojs:latest
 ```
 
 After the fetching and pushing is done, you can go to the console and check the repository to see the image.
@@ -140,7 +140,7 @@ docker run -p 8080:8080 hellospring
 - Push the image to the repository, ***please replace [project-id] with your project id on GCP***:
 
 ```bash
-gcloud builds submit --region=us-central1 --tag us-central1-docker.pkg.dev/[project-id]/docker-repo/hellospring:latest
+gcloud builds submit --region=us-central1 --tag us-central1-docker.pkg.dev/wise-mantra-413210/docker-repo/hellospring:latest
 ```
 
 ## Run container with Cloud Run
